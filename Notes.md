@@ -30,8 +30,8 @@
 [x] app.js should render the slideshow component 
 [x] sketch UI
     [ ] what HTML will JXS need to include? 
-[ ] pass slide data from app.js to slideshow.js
-[ ]     
+[x] hookup materialize     
+[ ] pass slide data from app.js to slideshow.js     
 [ ] THINK: how to show just one film?
 [ ] THINK: how to change ui to show next film?    
 [ ] hardcode one slide with data to make sure it shows up 
@@ -50,6 +50,13 @@
 
 
 ## Research
-[ ] materialize library (maybe use this time?)
+[x] materialize library (maybe use this time?)
 [ ] props 
 [ ] 
+
+from class:
+- 2 states: no selected dev (show list) and selected dev 
+- put this state on App 
+- when state changes, react rerenders the component and UI changes accordinly. so you're only ever looking at one state at a time 
+
+- app.js "data" holds onto the json, so will give us an array 
