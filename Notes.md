@@ -34,8 +34,10 @@
 [ ] pass slide data from app.js to slideshow.js     
 [ ] THINK: how to show just one film?
 [ ] THINK: how to change ui to show next film?    
-[ ] hardcode one slide with data to make sure it shows up 
-[ ] render slide using data passed (not hardcode)
+[x] hardcode one slide with data to make sure it shows up 
+[x] render slide using single data passed from same file
+[ ] render slide using single data passed from diff file
+[x] render specific slide from array 
 [ ] change state in code 
 [ ] buttons so user can change state
     [ ] start over 
@@ -52,11 +54,11 @@
 ## Research
 [x] materialize library (maybe use this time?)
 [ ] props 
-[ ] 
+
 
 from class:
 - 2 states: no selected dev (show list) and selected dev 
 - put this state on App 
-- when state changes, react rerenders the component and UI changes accordinly. so you're only ever looking at one state at a time 
+- when state changes, react rerenders the component and UI changes accordingly. so you're only ever looking at one state at a time 
 
 - app.js "data" holds onto the json, so will give us an array 
