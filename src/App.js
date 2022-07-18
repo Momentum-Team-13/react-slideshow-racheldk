@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import * as data from './film-data.json'
 import Slideshow from './Slideshow'

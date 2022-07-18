@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import 'materialize-css/dist/css/materialize.css'
 
 
@@ -239,11 +239,10 @@ function Slideshow ({ data }) {
           "vehicles": ["https://ghibliapi.herokuapp.com/vehicles/"],
           "url": "https://ghibliapi.herokuapp.com/films/67405111-37a5-438f-81cc-4666af60c800"
         }
-      ]
-    let film = allFilms[2]
-      
+    ]
+    const [film, setFilm] = useState(allFilms[0])
 
-      return (
+    return (
         <div>
 
         <div className='card'>
