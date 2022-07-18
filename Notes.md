@@ -27,12 +27,29 @@
         [ ] export 
     [x] import to App.js
     [x] export 
-[ ] app.js should render the slideshow component 
-[ ] pass slide data from app.js to slideshow.js
-[ ] sketch UI
+[x] app.js should render the slideshow component 
+[x] sketch UI
     [ ] what HTML will JXS need to include? 
+[ ] pass slide data from app.js to slideshow.js
 [ ]     
 [ ] THINK: how to show just one film?
 [ ] THINK: how to change ui to show next film?    
 [ ] hardcode one slide with data to make sure it shows up 
 [ ] render slide using data passed (not hardcode)
+[ ] change state in code 
+[ ] buttons so user can change state
+    [ ] start over 
+        [ ] takes to slide 1 
+        [ ] disabled on slide 1
+    [ ] back 
+        [ ] takes to previous slide 
+        [ ] disabled on slide 1 
+    [ ] next 
+        [ ] takes to next slide 
+        [ ] disabled on last slide         
+
+
+## Research
+[ ] materialize library (maybe use this time?)
+[ ] props 
+[ ] 
