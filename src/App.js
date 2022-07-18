@@ -1,10 +1,12 @@
 import './App.css'
 import * as data from './film-data.json'
+import './Slideshow'
+import Slideshow from './Slideshow'
 
 function App() {
   return (
     <div className="slides-app">
-      <h1>Your React App</h1>
+      <Slideshow />
     </div>
   )
 }
