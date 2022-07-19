@@ -2,17 +2,13 @@ import React, { useEffect, useState } from 'react'
 import 'materialize-css/dist/css/materialize.css'
 
 
-function SlideSortMisc (props) {
-    const {FILMS} = props
-
+function SlideSortMisc ({ FILMS }) {
     const [film, setFilm] = useState(FILMS[0])
     const [index, setIndex] = useState(0)
 
     useEffect(() => {
         setFilm(FILMS[index])
     }, [FILMS, index])
-
-
 
     return (
         <div>

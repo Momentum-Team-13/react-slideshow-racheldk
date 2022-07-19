@@ -2,17 +2,7 @@ import React, { useEffect, useState } from 'react'
 import 'materialize-css/dist/css/materialize.css'
 
 
-function SlideSortDate (props) {
-    const {FILMS} = props
-    // let FILMSBYDATE = FILMS.slice()
-
-    // FILMSBYDATE.sort(function (a, b) {
-    //     return a.release_date - b.release_date;
-    //     })
-    
-    // console.log(FILMSBYDATE)    
-
-    // console.log(FILMS)
+function SlideSortDate ({FILMS}) {
 
     const [film, setFilm] = useState(FILMS[0])
     const [index, setIndex] = useState(0)

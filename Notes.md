@@ -54,11 +54,11 @@
 ## Spicy Options 
 Sort by Date 
 [x] make array of films sorted by date
-[ ] make separate slide component pages 
-    [ ] using regular arrray 
-    [ ] using sorted by date array 
-[ ] update ternary to call specific slide component 
-[ ] update button 
+[x] make separate slide component pages 
+    [s] using regular arrray 
+    [x] using sorted by date array 
+[x] update ternary to call specific slide component 
+[x] update button 
 keep state in slideshow     
 
 
