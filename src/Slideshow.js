@@ -16,7 +16,7 @@ function Slideshow (props) {
         <div>
 
         <div className='card'>
-            <h1>{ film.title }</h1>
+            <h1 className='center-align'>{ film.title }</h1>
             <div className='card horizontal'>
                 <div className='card-image'>
                     <img src={ film.image } alt="movie poster"></img>
@@ -28,12 +28,23 @@ function Slideshow (props) {
                 </div>
             </div>
         </div>
+        {/* <div>
+            index: {index}
+        </div> */}
 
-        <div> 
-            <button onClick={() => {setFilm(FILMS[0])}}>Start Over</button>   
-            <button onClick={() => {setIndex(index - 1)}}>Back</button>    
-            {/* Need to increase the number of the index by 1 */}
-            <button onClick={() => {setIndex(index + 1)}}>Next</button>    
+        <div className='center-align'> 
+            { index !== 0 ?
+            (<button className='btn-small' onClick={() => {setIndex(0)}}>Start Over</button>
+            ): (<button className='btn-small disabled'>Start Over</button> )}
+
+            { index !== 0 ?
+            (<button className='btn-small' onClick={() => {setIndex(index - 1)}}>Back</button>
+            ): (<button className='btn-small disabled'>Back</button> )}
+
+            { index < 8 ?
+            (<button className='btn-small' onClick={() => {setIndex(index + 1)}}>Next</button>
+            ): (<button className='btn-small disabled'>Next</button>)} 
+
         </div>
 
         </div>

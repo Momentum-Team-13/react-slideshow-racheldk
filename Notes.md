@@ -31,29 +31,30 @@
 [x] sketch UI
     [ ] what HTML will JXS need to include? 
 [x] hookup materialize     
-[ ] pass slide data from app.js to slideshow.js     
+[x] pass slide data from app.js to slideshow.js     
 [ ] THINK: how to show just one film?
 [ ] THINK: how to change ui to show next film?    
 [x] hardcode one slide with data to make sure it shows up 
 [x] render slide using single data passed from same file
 [ ] render slide using single data passed from diff file
 [x] render specific slide from array 
-[ ] change state in code 
-[ ] buttons so user can change state
-    [ ] start over 
-        [ ] takes to slide 1 
-        [ ] disabled on slide 1
-    [ ] back 
-        [ ] takes to previous slide 
-        [ ] disabled on slide 1 
-    [ ] next 
-        [ ] takes to next slide 
-        [ ] disabled on last slide         
+[x] change state in code 
+[x] buttons so user can change state
+    [x] start over 
+        [x] takes to slide 1 
+        [x] disabled on slide 1
+    [x] back 
+        [x] takes to previous slide 
+        [x] disabled on slide 1 
+    [x] next 
+        [x] takes to next slide 
+        [x] disabled on last slide         
 
 
 ## Research
 [x] materialize library (maybe use this time?)
 [ ] props 
+[ ] how useEffect works 
 
 
 from class:
