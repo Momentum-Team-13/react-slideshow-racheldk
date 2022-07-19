@@ -73,4 +73,6 @@ from class:
 - put this state on App 
 - when state changes, react rerenders the component and UI changes accordingly. so you're only ever looking at one state at a time 
 
-- app.js "data" holds onto the json, so will give us an array 
+- app.js "data" holds onto the json, so will give us an array
+
+From Class: Amy's example:
